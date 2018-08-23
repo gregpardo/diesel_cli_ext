@@ -32,6 +32,7 @@ pub fn parse(
         ("Varchar", "String"),
         ("Uuid", "String"),
         ("Citext", "String"),
+        ("Float8", "f64"),
     ].iter()
         .cloned()
         .collect();
@@ -50,6 +51,7 @@ pub fn parse(
         ("Varchar", "string"),
         ("Uuid", "String"),
         ("Citext", "String"),
+        ("Float8", "f64"),
     ].iter()
         .cloned()
         .collect();
