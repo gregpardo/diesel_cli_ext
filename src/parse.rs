@@ -33,6 +33,7 @@ pub fn parse(
         ("Uuid", "String"),
         ("Citext", "String"),
         ("Float8", "f64"),
+        ("Date", "NaiveDateTime"),
     ].iter()
         .cloned()
         .collect();
@@ -52,6 +53,7 @@ pub fn parse(
         ("Uuid", "String"),
         ("Citext", "String"),
         ("Float8", "f64"),
+        ("Date", "NaiveDateTime"),
     ].iter()
         .cloned()
         .collect();
