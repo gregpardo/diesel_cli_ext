@@ -30,6 +30,8 @@ pub fn parse(
         ("Json", "Json"),
         ("Jsonb", "Jsonb"),
         ("Varchar", "String"),
+        ("Uuid", "String"),
+        ("Citext", "String"),
     ].iter()
         .cloned()
         .collect();
@@ -46,6 +48,8 @@ pub fn parse(
         ("Json", "string"),
         ("Jsonb", "string"),
         ("Varchar", "string"),
+        ("Uuid", "String"),
+        ("Citext", "String"),
     ].iter()
         .cloned()
         .collect();
